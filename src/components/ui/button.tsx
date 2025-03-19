@@ -76,7 +76,7 @@ function Button({
       data-slot="button"
       className={cn(
         buttonVariants({ variant, size, className }),
-        variant !== "link" && isPressed && "scale-75"
+        variant !== "link" && isPressed && "scale-x-95 scale-y-90"
       )}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
